@@ -111,7 +111,6 @@ Automated research intelligence gathering and NLP processing.
 
 **Note:** This repository contains research findings and methodology. Production implementation code (training pipelines, infrastructure configs, proprietary optimizations) is maintained privately.
 
-**For collaboration or implementation details:** derekg124@yahoo.com
 
 ## Documentation
 
@@ -157,3 +156,4 @@ GitHub: [@green8-dot](https://github.com/green8-dot)
 ---
 
 **Status:** Research complete, paper submitted to arXiv (awaiting approval), implementation details available on request.
+
