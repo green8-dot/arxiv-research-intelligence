@@ -66,6 +66,6 @@ RETURN a1.name, c1.domain, c2.domain
 
 ## Implementation
 
-**Note:** Production infrastructure code maintained privately. For collaboration: derekg124@yahoo.com
+**Note:** Production infrastructure code maintained privately. For collaboration: Contact via GitHub
 
 See main paper: [paper/paper.pdf](../../paper/paper.pdf)
