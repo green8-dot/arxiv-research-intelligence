@@ -146,14 +146,8 @@ Research findings freely available for academic and commercial use.
 - arXiv dataset: Cornell University
 - Neo4j graph database
 
-## Contact
-
-**Derek Green**
-Email: derekg124@yahoo.com
-LinkedIn: [linkedin.com/in/derekgreen-44723323a](https://linkedin.com/in/derekgreen-44723323a)
-GitHub: [@green8-dot](https://github.com/green8-dot)
-
 ---
 
 **Status:** Research complete, paper submitted to arXiv (awaiting approval), implementation details available on request.
+
 
