@@ -26,6 +26,6 @@ High-level methodology:
 
 ## Implementation Details
 
-**Note:** Production implementation code maintained privately. For collaboration: derekg124@yahoo.com
+**Note:** Production implementation code maintained privately. For collaboration: Contact via GitHub
 
 See main paper for full methodology: [paper/paper.pdf](../../paper/paper.pdf)

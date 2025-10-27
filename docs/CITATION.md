@@ -96,5 +96,4 @@ If this work was helpful for your research, please consider:
 ## Questions
 
 For questions about citation or research collaboration:
-- Email: derekg124@yahoo.com
 - GitHub: [@green8-dot](https://github.com/green8-dot)

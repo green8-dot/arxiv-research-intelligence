@@ -47,6 +47,6 @@ Framework for automated research synthesis combining:
 
 ## Implementation
 
-**Note:** Production code maintained privately. For collaboration: derekg124@yahoo.com
+**Note:** Production code maintained privately. For collaboration: Contact via GitHub
 
 Part of broader research platform: [paper/paper.pdf](../../paper/paper.pdf)
