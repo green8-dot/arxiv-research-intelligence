@@ -1,0 +1,14 @@
+{
+  "domain": "hep",
+  "architecture": "simple",
+  "categories": [
+    "hep-ex",
+    "hep-lat",
+    "hep-ph",
+    "hep-th"
+  ],
+  "num_classes": 4,
+  "best_val_acc": 0.9264214038848877,
+  "epochs_trained": 14,
+  "timestamp": "2025-10-24T23:52:08.893842"
+}

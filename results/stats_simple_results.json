@@ -1,0 +1,12 @@
+{
+  "domain": "stats",
+  "architecture": "simple",
+  "categories": [
+    "stat.AP",
+    "stat.ML"
+  ],
+  "num_classes": 2,
+  "best_val_acc": 0.9225568771362305,
+  "epochs_trained": 10,
+  "timestamp": "2025-10-23T20:47:11.097608"
+}

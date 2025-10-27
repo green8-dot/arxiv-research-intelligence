@@ -1,0 +1,15 @@
+{
+  "domain": "nlin",
+  "architecture": "simple",
+  "categories": [
+    "nlin.AO",
+    "nlin.CD",
+    "nlin.CG",
+    "nlin.PS",
+    "nlin.SI"
+  ],
+  "num_classes": 5,
+  "best_val_acc": 0.8851211071014404,
+  "epochs_trained": 10,
+  "timestamp": "2025-10-25T21:35:00.601798"
+}

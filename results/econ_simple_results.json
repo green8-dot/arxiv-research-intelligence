@@ -1,0 +1,13 @@
+{
+  "domain": "econ",
+  "architecture": "simple",
+  "categories": [
+    "econ.EM",
+    "econ.GN",
+    "econ.TH"
+  ],
+  "num_classes": 3,
+  "best_val_acc": 0.9243156313896179,
+  "epochs_trained": 10,
+  "timestamp": "2025-10-25T21:27:23.602921"
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "physics",
+  "architecture": "simple",
+  "categories": [
+    "physics.optics",
+    "physics.flu-dyn",
+    "physics.plasm-ph",
+    "physics.atom-ph",
+    "physics.chem-ph",
+    "physics.bio-ph",
+    "physics.med-ph",
+    "physics.geo-ph",
+    "physics.class-ph",
+    "physics.space-ph"
+  ],
+  "num_classes": 10,
+  "best_val_acc": 0.8888471722602844,
+  "epochs_trained": 14,
+  "timestamp": "2025-10-26T00:56:48.948570"
+}

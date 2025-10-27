@@ -1,0 +1,14 @@
+{
+  "domain": "math",
+  "architecture": "simple",
+  "categories": [
+    "math.NA",
+    "math.OC",
+    "math.PR",
+    "math.ST"
+  ],
+  "num_classes": 4,
+  "best_val_acc": 0.9396606087684631,
+  "epochs_trained": 9,
+  "timestamp": "2025-10-23T20:02:05.968334"
+}

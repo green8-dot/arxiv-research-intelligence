@@ -1,0 +1,17 @@
+{
+  "domain": "qbio",
+  "architecture": "simple",
+  "categories": [
+    "q-bio.CB",
+    "q-bio.GN",
+    "q-bio.MN",
+    "q-bio.NC",
+    "q-bio.OT",
+    "q-bio.PE",
+    "q-bio.SC"
+  ],
+  "num_classes": 7,
+  "best_val_acc": 0.880422055721283,
+  "epochs_trained": 13,
+  "timestamp": "2025-10-26T17:31:07.983561"
+}
