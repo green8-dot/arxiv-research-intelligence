@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large datasets should not be in git)
+*.csv
+*.json.gz
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+
+# Model checkpoints (too large for git)
+checkpoints/
+models/
+*.safetensors
+
+# Logs
+*.log
+logs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+
+# Keep these
+!paper/paper.pdf
+!paper/paper.tex
+!results/*.json

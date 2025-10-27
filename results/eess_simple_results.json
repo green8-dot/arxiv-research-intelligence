@@ -1,0 +1,14 @@
+{
+  "domain": "eess",
+  "architecture": "simple",
+  "categories": [
+    "eess.AS",
+    "eess.IV",
+    "eess.SP",
+    "eess.SY"
+  ],
+  "num_classes": 4,
+  "best_val_acc": 0.9257425665855408,
+  "epochs_trained": 10,
+  "timestamp": "2025-10-25T21:22:32.955651"
+}
