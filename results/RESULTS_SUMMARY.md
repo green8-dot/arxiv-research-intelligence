@@ -32,13 +32,6 @@
 - Systematic label correction improves F1 by 8-15 percentage points
 - Category validation identifies mislabeled papers with 96% precision
 
-## Key Findings
-
-1. **SciBERT Effectiveness:** Transfer learning from 1.14M scientific papers provides strong baseline
-2. **Contamination Impact:** Label noise significantly degrades performance (10-15% loss)
-3. **Cleaning Methodology:** Model-corrected label detection achieves consistent 85-95% accuracy after cleaning
-4. **Domain Generalization:** Single methodology works across diverse scientific domains
-
 ## Detailed Results
 
 Individual domain results available in:
@@ -52,8 +45,4 @@ Individual domain results available in:
 - `hep_simple_results.json`
 - `nucl_simple_results.json`
 
-Each file contains:
-- Test F1 score
-- Test accuracy
-- Training history
-- Category-specific metrics
+Each file contains test F1, accuracy, training history, category metrics.

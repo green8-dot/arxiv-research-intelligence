@@ -17,15 +17,4 @@ High-level methodology:
 3. Multi-label output layer (sigmoid activation per category)
 4. Contamination cleaning (removed 20% mislabeled papers)
 
-## Key Findings
-
-- Contamination cleaning improved F1 by 12% (from 82% to 94%)
-- SciBERT outperforms BERT by 8-12% on scientific text
-- Single-layer classification head optimal for this task
-- Title + abstract (128 tokens) sufficient for accurate classification
-
-## Implementation Details
-
-**Note:** Production implementation code maintained privately. For collaboration: Contact via GitHub
-
-See main paper for full methodology: [paper/paper.pdf](../../paper/paper.pdf)
+See [paper/paper.pdf](../../paper/paper.pdf)
