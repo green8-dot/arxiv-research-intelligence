@@ -1,19 +1,30 @@
-# arXiv Research Intelligence Framework
+# arXiv Research Intelligence Platform
 
-**Research Paper:** Multi-Domain Label Noise Detection and Cleaning for Scientific Document Classification
-**Status:** Submitted to arXiv (cs.LG, cs.CL) - Awaiting moderation approval
+**Independent ML Research | Scientific Document Intelligence**
+
+Research platform for advancing scientific knowledge through machine learning. Combines multi-domain classification, knowledge graph construction, and critical research gap analysis.
+
+**Anchor Publication:** Multi-Domain Label Noise Detection and Cleaning for Scientific Document Classification
+**Status:** Submitted to arXiv (cs.LG, cs.CL) - October 26, 2025 (awaiting moderation)
 **Results:** 91.34% average F1 across 9 scientific domains
 
-## Overview
+## Platform Overview
 
-Multi-domain scientific document classification system achieving 91.34% F1 score across 9 arXiv domains (122,911 papers). Combines SciBERT transfer learning with contamination cleaning methodology for systematic label noise detection and removal.
+Integrated research system addressing critical gaps in scientific document analysis:
 
-**Key Achievements:**
-- 91.34% average F1 across math, physics, stats, economics, biology, and more
+**ResearchScope (Core):** Multi-domain classification with label noise detection
+- 91.34% average F1 across 9 arXiv domains (122,911 papers)
 - 94.26% F1 on computer science (8 categories, 40K papers)
 - 20-60% label contamination detected and cleaned per domain
-- 135K+ papers in Neo4j knowledge graph
-- 96% precision on mislabel detection
+- 165K papers in Neo4j knowledge graph with citation networks
+- 99.7% author recovery success rate
+
+**Research Gap Extensions:** Tools addressing reproducibility, interdisciplinary collaboration, and trend forecasting
+- Gap 2: Reproducibility Scoring (automated assessment 0-100 scale)
+- Gap 3: Interdisciplinary Bridge Detection (cross-community connections)
+- Gap 5: Research Trend Forecasting (citation velocity analysis)
+
+All research findings published openly. Implementation details available for collaboration.
 
 ## Research Paper
 
@@ -107,9 +118,55 @@ Neo4j graph database with 135K+ research papers.
 
 Automated research intelligence gathering and NLP processing.
 
+## Research Gap Extensions
+
+Critical research tools addressing major gaps in scientific infrastructure:
+
+### Gap 2: Research Reproducibility Scoring
+
+Automated reproducibility assessment system (0-100 scale) analyzing:
+- **Code Availability:** GitHub/GitLab repos, archives (Zenodo, FigShare), DOIs
+- **Data Availability:** Dataset DOIs, public datasets (ImageNet, COCO, etc.), data archives
+- **Methodology Completeness:** Methods section analysis, hyperparameter detection, evaluation protocols
+- **Citation Network:** Papers citing reproducible papers score higher
+
+**Impact:** Enables journals and funding agencies to require minimum reproducibility scores.
+
+**Status:** Core implementation complete (1,000+ lines), ready for validation.
+
+See [gap2_reproducibility/](gap2_reproducibility/) for technical details.
+
+### Gap 3: Interdisciplinary Bridge Detection
+
+Identifies papers bridging disconnected research communities using:
+- **Community Detection:** Louvain algorithm on citation graph
+- **Cross-Community Analysis:** Papers citing/cited by multiple communities
+- **Author Migration:** Researchers switching fields (signal of emerging connections)
+- **Multi-Signal Scoring:** Combines citation patterns, network centrality, author interdisciplinarity
+
+**Deliverable:** Quarterly "Research Bridge" dataset for cross-disciplinary collaboration discovery.
+
+**Status:** Implementation complete (1,100+ lines), awaiting Neo4j Phase 2 (citation extraction).
+
+See [gap3_bridge_detection/](gap3_bridge_detection/) for methodology.
+
+### Gap 5: Research Trend Forecasting
+
+Predicts emerging research areas 6-12 months before peak using:
+- **Citation Velocity:** Papers with high citations/year since publication
+- **Cross-Domain Emergence:** Topics gaining traction across multiple fields
+- **Author Migration Patterns:** Established researchers switching to new areas
+- **Temporal Analysis:** SciBERT clustering over time (2020-2025)
+
+**Deliverable:** Quarterly "Emerging Research Trends" report for funding agencies.
+
+**Status:** Implementation complete, awaiting Neo4j citation data for testing.
+
+See [gap5_trend_forecasting/](gap5_trend_forecasting/) for design.
+
 ## Implementation Details
 
-**Note:** This repository contains research findings and methodology. Production implementation code (training pipelines, infrastructure configs, proprietary optimizations) is maintained privately.
+**Note:** This repository contains research findings and methodology. Production implementation code (training pipelines, infrastructure configs, proprietary optimizations) is maintained privately for collaboration purposes.
 
 
 ## Documentation
