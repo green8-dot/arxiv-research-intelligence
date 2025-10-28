@@ -29,24 +29,4 @@ Framework for automated research synthesis combining:
 - Author expertise identification
 - Research community mapping
 
-## Applications
-
-### Automated Literature Review
-- Query: "What are effective treatments for X?"
-- Output: Evidence-based summary with citation trails
-
-### Research Gap Detection
-- Identify under-explored research areas
-- Find disconnected research communities
-- Suggest collaboration opportunities
-
-### Hypothesis Generation
-- Cross-domain pattern detection
-- Novel connection identification
-- Evidence-weighted predictions
-
-## Implementation
-
-**Note:** Production code maintained privately. For collaboration: Contact via GitHub
-
-Part of broader research platform: [paper/paper.pdf](../../paper/paper.pdf)
+See [paper/paper.pdf](../../paper/paper.pdf)

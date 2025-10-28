@@ -26,21 +26,8 @@ Conceptual approach:
 
 Full list of detected mislabels available on request.
 
-## Impact
-
-Demonstrates systematic quality issues in arXiv categorization:
-- Author self-categorization without validation
-- Semantic overlap between categories causes confusion
-- No automated quality control in arXiv submission process
-
 ## Validation
 
-Manual inspection of 100 random detections:
-- 96 confirmed as actual mislabels (96% precision)
-- 4 ambiguous cases (genuinely multi-category)
+Manual inspection: 96/100 confirmed (96% precision), 4 ambiguous.
 
-## Implementation
-
-**Note:** Production code maintained privately. For collaboration: Contact via GitHub
-
-See main paper: [paper/paper.pdf](../../paper/paper.pdf)
+See [paper/paper.pdf](../../paper/paper.pdf)
