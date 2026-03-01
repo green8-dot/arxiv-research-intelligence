@@ -85,22 +85,11 @@ Status: Implementation complete, awaiting citation data. [gap5_trend_forecasting
 - [methodology/OVERVIEW.md](methodology/OVERVIEW.md)
 - [methodology/CONTAMINATION_DETECTION.md](methodology/CONTAMINATION_DETECTION.md)
 - [results/RESULTS_SUMMARY.md](results/RESULTS_SUMMARY.md)
-- [docs/CITATION.md](docs/CITATION.md)
 
-## Citation
-
-```bibtex
-@article{green2025arxiv,
-  title={Multi-Domain Label Noise Detection and Cleaning for Scientific Document Classification},
-  author={Green, Derek},
-  journal={arXiv preprint},
-  year={2025},
-  note={Submitted to cs.LG, cs.CL}
-}
-```
 
 ## License
 
 MIT License - [LICENSE](LICENSE)
+
 
 
